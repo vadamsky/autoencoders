@@ -231,11 +231,3 @@ class AaeEncoder(object):
 
     def get_z(self, data):
         return self.Q(data)
-
-    def brake(self):
-        """
-        Stop the car
-        """
-        return "Braking"
-
-
